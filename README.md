@@ -1,37 +1,71 @@
-📱 Flutter Calculator App
-A simple and responsive calculator app built with Flutter, featuring:
+📌 Judul Aplikasi
+ProjectCalculator - Flutter Kalkulator Multi Operator
 
-✅ Basic arithmetic operations (+, −, ×, ÷)
+📝 Deskripsi Aplikasi
+Aplikasi kalkulator berbasis Flutter yang mampu menghitung operasi matematika dengan beberapa operator sekaligus. Aplikasi ini dilengkapi dengan fitur riwayat perhitungan, profil pengguna, tampilan yang konsisten di semua perangkat, serta splash screen saat aplikasi dimulai.
 
-✅ Multi-operator input support
+🧰 Software yang Digunakan
+Flutter SDK (versi terbaru, direkomendasikan: 3.x)
 
-✅ Temporary history page (without database)
+Dart SDK
 
-✅ Profile page with user info
+Android Studio / VS Code (editor)
 
-✅ Native splash screen
+Git (untuk versi kontrol)
 
-✅ Consistent UI across all platforms using BoxConstraints
+flutter_native_splash (untuk splash screen)
 
-✅ Centered layout on large screens (tablet & web)
+⚙️ Cara Instalasi
+Clone repository:
 
-🛠 Tech Stack
-Flutter (Dart)
-
-Material Design
-
-No external state management
-
-No backend/database
-
-📂 Project Structure
-css
+bash
 Salin
 Edit
-lib/
-├── main.dart
-├── calculator_page.dart
-├── history_page.dart
-└── profile_page.dart
-assets/
-└── logo.png
+git clone https://github.com/Vinzzhdi/ProjectCalculator.git
+cd ProjectCalculator
+Install dependensi:
+
+bash
+Salin
+Edit
+flutter pub get
+Buat splash screen:
+
+bash
+Salin
+Edit
+dart run flutter_native_splash:create
+▶️ Cara Menjalankan
+Pastikan emulator atau device Android/iOS/Web sudah aktif.
+
+Jalankan aplikasi:
+
+bash
+Salin
+Edit
+flutter run
+Untuk web:
+
+bash
+Salin
+Edit
+flutter run -d chrome
+🎥 Demo Aplikasi
+Jika kamu sudah merekam simulasi penggunaannya menggunakan Snipping Tool (fitur screen recording), kamu bisa:
+
+📌 Tempel video ukuran kecil langsung di README (GIF/mp4 kecil):
+markdown
+Salin
+Edit
+![Demo Kalkulator](assets/demo_kalkulator.gif)
+📌 Atau jika file besar, upload ke YouTube atau Google Drive:
+markdown
+Salin
+Edit
+📽️ [Klik di sini untuk menonton demo aplikasi](https://drive.google.com/your-demo-link)
+👤 Identitas Pembuat
+Nama	Keterangan
+Nama	Vinzzhdi
+GitHub	github.com/Vinzzhdi
+Framework	Flutter
+Tahun	2025
